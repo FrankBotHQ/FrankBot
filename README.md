@@ -1,2 +1,2 @@
-# WaBot
-SheetBot is the ultimate tool for building bots to WhatsApp using only Spreadsheet
+# ZapBot
+ZapBot is the ultimate tool for building bots to WhatsApp using only Spreadsheet

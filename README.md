@@ -1,2 +1,2 @@
-# mybot
-MyBot is the ultimate platform for creating your chatbot for whatsapp in a simplified way
+# SheetBot
+SheetBot is the ultimate tool for building bots to WhatsApp using only Spreadsheets

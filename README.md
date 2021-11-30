@@ -7,8 +7,8 @@
 
 1 - Downloading project
 
-- Installing using [npm](https://www.npmjs.com/) in your terminal type:<br>
-  `npm i github:FrankBotHQ/FrankBot -S`
+- Download using [Git](https://git-scm.com/) in your terminal type:<br>
+  `git clone https://github.com/FrankBotHQ/FrankBot.git`
 
 2 - Downloading dependencies, type in your terminal: <br>
 

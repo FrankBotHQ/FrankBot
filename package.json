@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "ts-node": "^10.4.0",
+    "venom-bot": "^4.0.1"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+    "startdev": "nodemon index.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.3.0",
+    "nodemon": "^2.0.15",
+    "prettier": "2.4.1",
+    "typescript": "^4.5.2"
+  }
+}

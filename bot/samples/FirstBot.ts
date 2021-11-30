@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-non-null-assertion */
 import { Bot } from "../../core/bot/Bot";
 import { Channel } from "../../core/channel/Channel";
 import { WrappedMessage } from "../../core/conversation/WrappedMessage";
 import { CosineSimilarity } from "../../core/util/CosineSimilarity";
 
-export class GreetingBot implements Bot {
+export class FirstBot implements Bot {
   private dialogs = new Map([
     ["hello", "Hi, how are you?"],
     ["good morning", "Good morning, it's a beautiful day!"],
@@ -24,19 +25,22 @@ export class GreetingBot implements Bot {
 
   private processMostSimilarDialog(input: string): string {
     let maxSimilarity = 0;
-    let maxSimilarityKey: string;
+    let maxSimilarityKey!: string;
     for (const key of this.dialogs.keys()) {
-      const similarity = CosineSimilarity.similarity(input, this.dialogs[key]);
+      const similarity = CosineSimilarity.similarity(
+        input,
+        this.dialogs.get(key)!
+      );
       if (similarity > maxSimilarity) {
         maxSimilarity = similarity;
         maxSimilarityKey = key;
       }
     }
 
-    if (maxSimilarity > 0.65) {
-      return this.dialogs[maxSimilarityKey];
+    if (maxSimilarity > 0.65 && maxSimilarityKey) {
+      return this.dialogs.get(maxSimilarityKey)!;
     } else {
-      return this.dialogs["fallback"];
+      return this.dialogs.get("fallback")!;
     }
   }
 }

@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="https://github.com/FrankBotHQ/brands/blob/main/frankbot/FrankBot-500x250.png" width="400" alt="FrankBot">
 </h1>
-<p style="text-align: center">🎃 The easiest tool for creating ChatBots and Virtual Assistants. Join us.</p>
+<p align="center">🎃 The easiest tool for creating ChatBots and Virtual Assistants. Join us.</p>
 
 ## Getting Started
 

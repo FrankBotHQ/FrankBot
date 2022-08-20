@@ -20,7 +20,7 @@
 
 4 - Scan the QR Code that will appear in terminal and enjoy
 
-5 - The development files of the first example bot can be found at bot/samples/FirstBot.ts
+6 - In the **[samples](https://github.com/FrankBotHQ/FrankBot/tree/main/samples)** folder you will find several examples of implemented bots
 
 ## Functions
 

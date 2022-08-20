@@ -1,15 +1,16 @@
 {
   "name": "frankbot",
-	"title": "FrankBot",
-	"description": "🎃 The easiest tool for creating ChatBots and Virtual Assistants. Join us.",
-	"author": "FrankBotHQ",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/FrankBotHQ/FrankBot.git"
-	},
-	"homepage": "https://github.com/FrankBotHQ/FrankBot",
-	"version": "1.0.0",
+  "title": "FrankBot",
+  "description": "🎃 FrankBot is the most complete tool to connect Chatbots with Messaging Channels. Join us.",
+  "author": "FrankBotHQ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FrankBotHQ/FrankBot.git"
+  },
+  "homepage": "https://github.com/FrankBotHQ/FrankBot",
+  "version": "1.0.0",
   "dependencies": {
+    "axios": "^0.27.2",
     "ts-node": "^10.4.0",
     "venom-bot": "^4.0.1"
   },

@@ -5,18 +5,17 @@
 
 ## Getting Started
 
-1 - Downloading project
+1 - Download using [Git](https://git-scm.com/) in your terminal type:<br>
 
-- Download using [Git](https://git-scm.com/) in your terminal type:<br>
-  `git clone https://github.com/FrankBotHQ/FrankBot.git`
+`git clone https://github.com/FrankBotHQ/FrankBot.git`
 
 2 - Downloading dependencies, type in your terminal: <br>
 
-- `npm install` <br>
+`npm install` <br>
 
 3 - Runing sample bot, type in your terminal: <br>
 
-- `npm start` <br>
+`npm start` <br>
 
 4 - Scan the QR Code that will appear in terminal and enjoy
 

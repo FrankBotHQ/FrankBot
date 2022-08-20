@@ -53,7 +53,7 @@ Channel settings that can be passed in the channel create() method
 ## Folders and files structure
 
 - **samples**: Here you can find some implemented examples of bots created for some channels
-- **channels**: Here are all the channels your bot can communicate, like: WhatsAppWeb.js, Slack, Telegram, discord, facebook, Terminal Console and more
+- **channels**: Here are all the channels your bot can communicate, like: [WhatsApp Web js](https://github.com/pedroslopez/whatsapp-web.js/), [Slack](https://slack.com/), [Telegram](https://web.telegram.org/), discord, facebook, Terminal Console and more
 - **bots**: here are all bot connectors, like: DialogFlow, BotPress, RASA, Api, Json, Database, CSV and more
 - **core**: Here are all the files necessary for the framework to work
 - **logger**: Here are the logging strategies you want to use in your application, like: console, database, api hook etc.

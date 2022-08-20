@@ -52,12 +52,12 @@ Channel settings that can be passed in the channel create() method
 
 ## Folders and files structure
 
-- **samples**: Here you can find some implemented examples of bots created for some channels
-- **channels**: Here are all the channels your bot can communicate, like: [WhatsApp Web js](https://github.com/pedroslopez/whatsapp-web.js/), [Slack](https://slack.com/), [Telegram](https://web.telegram.org/), discord, facebook, Terminal Console and more
-- **bots**: here are all bot connectors, like: DialogFlow, BotPress, RASA, Api, Json, Database, CSV and more
-- **core**: Here are all the files necessary for the framework to work
-- **logger**: Here are the logging strategies you want to use in your application, like: console, database, api hook etc.
-- **./index.ts:** Here is your boot file with your bot settings
+- **[samples](https://github.com/FrankBotHQ/FrankBot/tree/main/samples)**: Here you can find some implemented examples of bots created for some channels
+- **[channels](https://github.com/FrankBotHQ/FrankBot/tree/main/channels)**: Here are all the channels your bot can communicate, like: [WhatsApp Web js](https://github.com/pedroslopez/whatsapp-web.js/), [Slack](https://slack.com/), [Telegram](https://web.telegram.org/), discord, facebook, Terminal Console and more
+- **[bots](https://github.com/FrankBotHQ/FrankBot/tree/main/bots)**: here are all bot connectors, like: DialogFlow, BotPress, RASA, Api, Json, Database, CSV and more
+- **[core](https://github.com/FrankBotHQ/FrankBot/tree/main/core)**: Here are all the files necessary for the framework to work
+- **[logger](https://github.com/FrankBotHQ/FrankBot/tree/main/logger)**: Here are the logging strategies you want to use in your application, like: console, database, api hook etc.
+- **[./index.ts:](https://github.com/FrankBotHQ/FrankBot/blob/main/index.ts)** Sample bot using VenomBot Channel and Json to build answers
 
 ## How contribute
 
